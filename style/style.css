@@ -5,6 +5,10 @@
 }
 a, a:hover {
     text-decoration: none;
+    color: inherit;
+}
+p {
+    opacity: 0.7;
 }
 button {
     border: none;
@@ -12,6 +16,7 @@ button {
 body {
     font-family: 'Poppins', sans-serif;
     color: #021206;
+    overflow-x: hidden;
 }
 .container {
     max-width: 1185px;
@@ -27,7 +32,95 @@ body {
     width: 33.3333%;
     padding: 0 15px;
 }
+.col-5 {
+    width: 46.666%;
+    padding: 0 15px;
+}
+.col-7 {
+    width: 53.333%;
+    padding: 0 15px;
+}
+.header {
+    padding: 35px 0 70px;
+}
 .header.row {
     align-items: center;
 }
-.menu
+.menu {
+    text-align: center;
+    opacity: 0.5;
+}
+.menuItem {
+    margin: 0 22px;
+}
+.headerAuth{
+    text-align: right;
+}
+.headerLogin {
+    padding-right: 23px;
+}
+.headerSignup {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    background-color: #F44545;
+    border-radius: 6px;
+    color: #ffff;
+}
+.hero {
+    padding-bottom: 133px;
+}
+.heroTitle {
+    font-size: 53px;
+    line-height: 81px;
+    font-weight: 600;
+    margin: 115px 0 25px;
+}
+.heroTitle span {
+    color: #24DC9F;
+}
+.heroInfo {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+.feedbackForm {
+    position: relative;
+    margin-bottom: 35px;
+}
+.feedbackInput {
+    padding: 19px 270px 19px 24px;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    filter:drop-shadow( 0 5px 10px rgba(0, 0, 0, 0.2));
+    border-radius: 6px;
+
+}
+.feedbackBtn {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    bottom: 0px;
+    background-color: #F44545;
+    font-size: 21px;
+    line-height: 31px;
+    color: white;
+    padding: 11px 33px;
+    font-weight: 500;
+    border-radius: 6px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+.appsImg {
+    margin-right: 30px;
+}
+.ourClients {
+    background-color: rgba(142, 230, 201, 0.16);
+    padding: 54px 0;
+}
+.ourClientsBlock {
+    display: flex;
+    justify-content: space-between;
+}
