@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, a:hover {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #021206;
+}
+.container {
+    max-width: 1185px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.header.row {
+    align-items: center;
+}
+.menu
