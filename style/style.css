@@ -149,7 +149,7 @@ body {
     padding: 0 15px;
 }
 .feature {
-    padding-top: 110px;
+    padding: 110px 0 70px;
 }
 .featureBox {
     border: 1px solid rgba(2, 18, 6, 0.1);
@@ -209,14 +209,16 @@ body {
     font-weight: 400;
     line-height: 25px;
 }
-.featureTitle {
+.featureTitle,
+.discoverTitle {
     font-size: 45px;
     color: #021206;
     font-weight: 600;
     line-height: 67px;
     margin-bottom:20px;
 }
-.featureText {
+.featureText,
+.discoverText {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -244,4 +246,24 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
+}
+.discoverInfo {
+    padding: 75px 0 0 75px;
+}
+.discoverListAll {
+    padding-left: 30px;
+}
+.discoverList {
+    position: relative;
+    list-style: none;
+    margin-bottom: 16px;
+}
+.discoverList:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url("../images/listIcon.png");
+    left: -6%;
+    top: 6%;
 }
