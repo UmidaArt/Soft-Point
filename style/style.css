@@ -34,11 +34,11 @@ body {
     padding: 0 15px;
 }
 .col-5 {
-    width: 45.666%;
+    width: 44.666%;
     padding: 0 15px;
 }
 .col-7 {
-    width: 54.333%;
+    width: 55.333%;
     padding: 0 15px;
 }
 .header {
@@ -210,7 +210,8 @@ body {
     line-height: 25px;
 }
 .featureTitle,
-.discoverTitle {
+.discoverTitle,
+.servingInfoTitle {
     font-size: 45px;
     color: #021206;
     font-weight: 600;
@@ -218,13 +219,16 @@ body {
     margin-bottom:20px;
 }
 .featureText,
-.discoverText {
+.discoverText,
+.discoverList,
+.servingInfoText {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-bottom:16px;
 }
-.featureText span {
+.featureText span,
+.servingInfoText span{
     font-weight: 600;
 }
 .featureInfo {
@@ -248,7 +252,8 @@ body {
     line-height: 28px;
 }
 .discoverInfo {
-    padding: 75px 0 0 75px;
+    padding: 75px 16px 0 75px;
+    color: #021206;
 }
 .discoverListAll {
     padding-left: 30px;
@@ -256,7 +261,6 @@ body {
 .discoverList {
     position: relative;
     list-style: none;
-    margin-bottom: 16px;
 }
 .discoverList:before {
     content: "";
@@ -266,4 +270,7 @@ body {
     background: url("../images/listIcon.png");
     left: -6%;
     top: 6%;
+}
+.servingInfo {
+    padding: 115px 0 0 12px ;
 }
