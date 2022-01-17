@@ -1,0 +1,245 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .menuItem {
+        margin: 0 10px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .headerAuth{
+        text-align: center;
+    }
+    .menuLink {
+        display: block;
+        text-align: right;
+        z-index: 4;
+    }
+    .pricingBlock .col-4 {
+        width: 100%;
+    }
+    .col-5,
+    .col-6 {
+        width: 100%;
+    }
+    .col-7 {
+        width: 100%;
+    }
+    .row.rowRow .col-6{
+        width: 50%;
+    }
+    .menu {
+        background: white;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+        z-index: 1;
+    }
+    .menuItem:hover {
+        color: #F44545;
+    }
+    .menuItem {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .menu.showMenu {
+        left: 0;
+    }
+    .heroTitle {
+        font-size: 40px;
+    }
+    .heroTitle span:before {
+        right: -19px;
+        bottom: 13px;
+    }
+    .featureTitle,
+    .discoverTitle,
+    .servingInfoTitle,
+    .softwareInfoTitle,
+    .pricingTitle {
+        font-size: 40px;
+        line-height: 51px;
+    }
+    .learnMore {
+        padding: 10px 20px;
+    }
+    .feature {
+        padding: 70px 0 30px;
+    }
+    .featureInfo {
+        padding: 70px  0 30px;
+    }
+    .discoverInfo {
+        padding: 75px 0 0;
+    }
+    .servingInfo {
+        padding: 0 0 120px 12px ;
+    }
+    .software {
+        padding: 50px 0 50px;
+    }
+    .softwareImg {
+        max-width: 100%;
+        height: auto;
+    }
+    .downloadLink {
+        padding: 10px 20px;
+    }
+    .pricingCardNumber {
+        font-size: 30px;
+    }
+    .pricingCardLink {
+        padding: 10px 20px;
+    }
+    .pricingCardList li {
+        padding: 22px 36px 22px 100px;
+    }
+    .pricingCard {
+        margin-bottom: 30px;
+    }
+    .footerInfoTitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .headerSignup {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+    .headerAuth {
+        text-align: left;
+    }
+    .headerLogin {
+        padding-right: 10px;
+    }
+    .heroTitle span:before {
+        display: none;
+    }
+    .featureTitle,
+    .discoverTitle,
+    .servingInfoTitle,
+    .softwareInfoTitle,
+    .pricingTitle {
+        font-size: 32px;
+    }
+    .featureText,
+    .discoverText,
+    .discoverList,
+    .servingInfoText,
+    .softwareInfoText,
+    .pricingText {
+        font-size: 16px;
+    }
+    .learnMore,
+    .ask {
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 480px;
+    }
+    .headerAuth {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3px;
+        align-items: center;
+    }
+    .headerSignup {
+        width: 80px;
+        height: 40px;
+        margin-top: 5px;
+    }
+    .heroTitle {
+        margin: 70px 0 25px;
+        font-size: 32px;
+        line-height: 60px;
+    }
+    .heroTitle span:before {
+        right: -12%;
+        bottom: 22%;
+        width: 16px;
+    }
+    .heroInfo {
+        font-size: 18px;
+    }
+    .feedbackInput {
+        padding: 10px 135px 10px 10px;
+    }
+    .feedbackBtn {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+    .appsImg  {
+        margin: 0 15px 15px 0;
+    }
+    .hero img {
+        width: auto;
+        height: auto;
+    }
+    .feature {
+        padding: 70px 0 ;
+    }
+    .row.rowRow .col-6{
+        width: 100%;
+    }
+    .featureTitle,
+    .discoverTitle,
+    .servingInfoTitle,
+    .softwareInfoTitle,
+    .pricingTitle {
+        font-size: 30px;
+        line-height: 51px;
+    }
+    .settings,
+    .user,
+    .secured,
+    .code{
+        width: 65px;
+        height: 65px;
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+    .pricingCardNumber {
+        font-size: 26px;
+    }
+    .pricingCardTitle {
+        font-size: 18px;
+    }
+    .pricingCardList li {
+        padding: 22px 36px 22px 60px;
+    }
+    .pricingCardLink {
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+    .feature img {
+        width: 25px;
+    }
+    .footerInfo img {
+        width: 100px;
+    }
+    .col-3 {
+        width: 50%;
+    }
+}
+@media (max-width: 320px) {
+    .appsImg:first-child  {
+        margin: 0 15px 15px 0;
+    }
+}

@@ -8,7 +8,11 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+<!--    <link rel="stylesheet" href="./style/bootstrap.min.css">-->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 <body>
 <header class="header">
@@ -25,6 +29,7 @@
                     <a href="#" class="menuItem">Download</a>
                     <a href="#" class="menuItem">Pricing</a>
                 </nav>
+                <div class="menuLink">Menu</div>
             </div>
             <div class="col-4">
                 <div class="headerAuth">
@@ -70,7 +75,7 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <div class="row">
+                <div class="row rowRow">
                     <div class="col-6">
                         <div class="featureBox">
                             <div class="settings">
@@ -136,7 +141,7 @@
                 <div class="discoverInfo">
                     <h2 class="discoverTitle">Discover & growth with analysis.</h2>
                     <p class="discoverText">Software with new dimensions. The better future
-                        and information about the virtual world.
+                        and <inforz>s</inforz>mation about the virtual world.
                     </p>
                     <ul class="discoverListAll">
                         <li class="discoverList">Software with new dimensions the better.</li>
@@ -158,7 +163,7 @@
     <div class="container">
         <div class="row">
             <div class="col-7">
-                <div class="servingImg">
+                <div class="servingImg rtl">
                     <img src="images/servingImg.png" alt="Serving">
                 </div>
             </div>
@@ -189,7 +194,7 @@
                 </div>
             </div>
             <div class="col-7">
-                <div class="softwareImg">
+                <div class="softwareIm">
                     <img src="./images/software.png">
                 </div>
             </div>
@@ -207,9 +212,8 @@
             <input type="checkbox">
             <p>Quarterly</p>
         </div>
-        <div class="pricingImg">
+        <div class="pricingSave">
             <p>Save up to 40%</p>
-            <img src="./images/pricingImg.png" width="44">
         </div>
         <div class="range-container">
             <input type="range" id="range" max="260" min="0">
@@ -260,7 +264,7 @@
                             <li><p style="font-weight: 500;color: #021206">100+ HTML UI Elements </p>
                                 <p style="font-weight: 500;color: #021206">Yes</p>
                             </li>
-                            <li><p style="font-weight: 500;color: #021206">Hotline Support 24/7</p>
+                            <li><p style="font-weight: 400;color: #000301">Hotline Support 24/7</p>
                                 <p style="font-weight: 500;color: #021206">Yes</p>
                             </li>
                             <li><p style="font-weight: 500;color: #021206">API & extension support</p>
@@ -277,33 +281,39 @@
 </section>
 <footer class="footer">
     <div class="container footerContainer">
-        <div class="footerInfo">
-            <img src="./images/logo.svg">
-            <p>Software with new look. Live<br> the life that you expect.</p>
-        </div>
-        <div class="footerInfo">
-            <h4 class="footerInfoTitle">Useful link</h4>
-            <p>Behance</p>
-            <p>Dribbble</p>
-        </div>
-        <div class="footerInfo">
-            <h4 class="footerInfoTitle">Useful link</h4>
-            <p>Behance</p>
-            <p>Dribbble</p>
-        </div>
-        <div class="footerInfo">
-            <h4 class="footerInfoTitle">Support</h4>
-            <p>Conditions</p>
-            <p>Privecy and policy</p>
-        </div>
-        <div class="footerInfo">
-            <h4 class="footerInfoTitle">Contact us</h4>
-            <a href="tel:(773) 217-8810">(773) 217-8810</a>
-            <p>Downers Grove, IL 60515</p>
+        <div class="row">
+            <div class="col-3">
+                <div class="footerInfo">
+                    <img src="./images/logo.svg">
+                    <p>Software with new look. Live<br> the life that you expect.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="footerInfo">
+                    <h4 class="footerInfoTitle">Useful link</h4>
+                    <p>Behance</p>
+                    <p>Dribbble</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="footerInfo">
+                    <h4 class="footerInfoTitle">Support</h4>
+                    <p>Conditions</p>
+                    <p>Privecy and policy</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="footerInfo">
+                    <h4 class="footerInfoTitle">Contact us</h4>
+                    <a href="tel:(773) 217-8810">(773) 217-8810</a>
+                    <p>Downers Grove, IL 60515</p>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./js/script.js"></script>
 
 </body>
