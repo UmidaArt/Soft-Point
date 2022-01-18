@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
-    position: relative;
+    /*position: relative;*/
 }
 .col-3 {
     width: 25%;
@@ -58,6 +58,9 @@ body {
 .menuItem {
     margin: 0 22px;
 }
+.overflow {
+    overflow: hidden;
+}
 .menuLink {
     margin-top: 3px;
     display: none;
@@ -66,9 +69,6 @@ body {
 .menuLink:hover,
 .headerLogin:hover {
     color: #F44545;
-}
-.overflow {
-    overflow: hidden;
 }
 .headerAuth{
     text-align: right;
@@ -92,7 +92,6 @@ body {
 .hero {
     padding-bottom: 50px;
 }
-
 .heroTitle {
     font-size: 53px;
     line-height: 81px;
@@ -110,7 +109,7 @@ body {
     width: 18px;
     height: 8px;
     background: url("../images/points.png");
-    right: -19px;
+    right: 72px;
     bottom: 19px;
     position: absolute;
 }
@@ -123,6 +122,7 @@ body {
 .heroInfo span {
     font-weight: 500;
 }
+
 .feedbackForm {
     position: relative;
 }
@@ -164,18 +164,20 @@ body {
 }
 .ourClients {
     background-color: rgba(142, 230, 201, 0.16);
-    padding: 54px 0;
+    padding: 54px 0 44px;
 }
 .ourClientsBlock {
     display: flex;
     justify-content: space-between;
 }
-.ourClientsBlock img {
-
+.ourClientsBlock a {
+    display: inline-block;
+    margin: 0 50px;
 }
-.ourClientsBlock img:hover {
-    /*transform: scale3d(2, 2, 2);*/
-}
+/*.ourClientsBlock img {*/
+/*    max-width: 100%;*/
+/*    margin-top: 20px;*/
+/*}*/
 .col-6 {
     width: 50%;
     padding: 0 15px;
@@ -329,11 +331,13 @@ body {
 .software {
     background-color: rgba(142, 230, 201, 0.16);
     padding: 50px 0 115px;
+    position: relative;
+    margin-bottom: 5px;
 }
 .softwareImg {
     position: absolute;
-    top: -55%;
-    right: -20%;
+    top: -44%;
+    right: -33%;
 }
 .downloadLink {
     display: inline-block;
@@ -345,6 +349,11 @@ body {
     line-height: 32px;
     font-weight: 500;
     margin-top: 28px;
+}
+.downloadLink:hover {
+    color: white;
+    box-shadow: 5px 10px 10px rgba(80, 45, 45, 0.3);
+    background-color: #d03e3e;
 }
 .pricing {
     text-align: center;
@@ -594,14 +603,18 @@ input[type=range]:active::-ms-fill-upper {
     font-size: 20px;
     padding: 13px 76px;
 }
+.pricingCardLink:hover {
+    color: white;
+    box-shadow: 5px 10px 10px rgba(80, 45, 45, 0.3);
+    background-color: rgba(245, 84, 84, 1);
+}
 .footer {
     background-color: rgba(142, 230, 201, 0.16);
     padding: 50px 0;
 }
-.footerContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+.footerInfo img {
+    width: 80%;
 }
 .footerInfo img,
 .footerInfoTitle {

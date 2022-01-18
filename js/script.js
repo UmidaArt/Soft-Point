@@ -1,13 +1,13 @@
-const myBurger = document.querySelector('.menuLink')
+const myMenuLink = document.querySelector('.menuLink')
 const myMenu = document.querySelector('.menu')
-const myMenuLink = document.querySelectorAll('.menuItem')
+const myMenuItem = document.querySelectorAll('.menuItem')
 
-myBurger.addEventListener('click', () => {
+myMenuLink.addEventListener('click', () => {
     myMenu.classList.toggle('showMenu')
     document.body.classList.toggle('overflow' )
 })
 
-myMenuLink.forEach(oneLink => {
+myMenuItem.forEach(oneLink => {
     oneLink.addEventListener('click', () => {
         myMenu.classList.remove('showMenu')
         document.body.classList.remove('overflow')
@@ -42,3 +42,24 @@ range.addEventListener('input', (e) => {
 const scale = (num, in_min, in_max, out_min, out_max) => {
     return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
+AOS.init();
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items: 4,
+        loop: true,
+        dots: true,
+        nav: true,
+        responsive: {
+            1200: {
+                items: 4
+            },
+            768: {
+                item: 3
+            },
+            320: {
+                item: 2
+            }
+        }
+    });
+});
