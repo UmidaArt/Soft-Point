@@ -46,7 +46,7 @@ AOS.init();
 
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        items: 4,
+        items: 5,
         loop: true,
         dots: true,
         nav: true,
@@ -57,7 +57,7 @@ $(document).ready(function(){
             768: {
                 item: 3
             },
-            320: {
+            360: {
                 item: 2
             }
         }
