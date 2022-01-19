@@ -29,6 +29,9 @@
         display: block;
         text-align: right;
         z-index: 2;
+        color: #3ac99a;
+        font-size: 20px;
+        margin-left: 20px;
     }
     .pricingBlock .col-4 {
         width: 100%;
@@ -108,7 +111,7 @@
         height: auto;
     }
     .software {
-        padding: 50px 0 50px;
+        padding: 50px 0 480px;
     }
     .downloadLink {
         padding: 10px 20px;
@@ -170,10 +173,6 @@
     .ourClients {
         padding: 35px 0;
     }
-    /*.ourClientsBlock img {*/
-    /*    width: 130px;*/
-    /*}*/
-
 }
 @media (max-width: 576px) {
     .container {

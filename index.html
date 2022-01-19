@@ -9,10 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
     <link rel="stylesheet" href="./style/owl.carousel.min.css">
     <link rel="stylesheet" href="./style/owl.theme.default.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style/bootstrap.min.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/media.css">
 </head>
@@ -31,7 +32,6 @@
                     <a href="#software" class="menuItem">Download</a>
                     <a href="#pricing" class="menuItem">Pricing</a>
                 </nav>
-                <div class="menuLink">Menu</div>
             </div>
             <div class="col-4">
                 <div class="headerAuth">
@@ -39,6 +39,7 @@
                     <a href="#" class="headerSignup">Sign up</a>
                 </div>
             </div>
+            <div class="menuLink">Menu</div>
         </div>
     </div>
 </header>
@@ -221,8 +222,61 @@
             <input type="range" id="range" max="260" min="0">
             <label for="range">$130</label>
         </div>
-        <div class="pricingBlock">
-            <div class="row">
+        <div class="pricingBlock ">
+            <div class="row single-item ">
+                <div class="col-4">
+                    <div class="pricingCard yellow">
+                        <p class="pricingCardTitle">Basic plan</p>
+                        <h2 class="pricingCardNumber">$0</h2>
+                        <ul class="pricingCardList">
+                            <li><p style="font-weight: 500;color: #021206">Limited Acess Library</p>
+                                <p style="font-weight: 500;color: #021206">Yes</p>
+                            </li>
+                            <li><p style="text-decoration: line-through">100+ HTML UI Elements</p><p>No</p></li>
+                            <li><p style="text-decoration: line-through">Hotline Support 24/7</p> <p>No</p></li>
+                            <li><p style="text-decoration: line-through">API & extension support</p><p>No</p></li>
+                        </ul>
+                        <a href="#" class="pricingCardLink">Buy Plan</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="pricingCard">
+                        <p class="pricingCardTitle">Premium plan</p>
+                        <h2 class="pricingCardNumber">$130</h2>
+                        <ul class="pricingCardList">
+                            <li><p style="font-weight: 500;color: #021206">Limited Acess Library</p>
+                                <p style="font-weight: 500;color: #021206">Yes</p>
+                            </li>
+                            <li><p style="font-weight: 500;color: #021206">100+ HTML UI Elements </p>
+                                <p style="font-weight: 500;color: #021206">Yes</p>
+                            </li>
+                            <li><p style="text-decoration: line-through">Hotline Support 24/7</p> <p>No</p></li>
+                            <li><p style="text-decoration: line-through">API & extension support</p><p>No</p></li>
+                        </ul>
+                        <a href="#" class="pricingCardLink">Buy Plan</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="pricingCard green">
+                        <p class="pricingCardTitle">Ultimate plan</p>
+                        <h2 class="pricingCardNumber">$210</h2>
+                        <ul class="pricingCardList">
+                            <li><p style="font-weight: 500;color: #021206">Limited Acess Library</p>
+                                <p style="font-weight: 500;color: #021206">Yes</p>
+                            </li>
+                            <li><p style="font-weight: 500;color: #021206">100+ HTML UI Elements </p>
+                                <p style="font-weight: 500;color: #021206">Yes</p>
+                            </li>
+                            <li><p style="font-weight: 400;color: #000301">Hotline Support 24/7</p>
+                                <p style="font-weight: 500;color: #021206">Yes</p>
+                            </li>
+                            <li><p style="font-weight: 500;color: #021206">API & extension support</p>
+                                <p style="font-weight: 500;color: #021206">Yes</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="pricingCardLink">Buy Plan</a>
+                    </div>
+                </div>
                 <div class="col-4">
                     <div class="pricingCard yellow">
                         <p class="pricingCardTitle">Basic plan</p>
@@ -317,6 +371,7 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./js/jquery.js"></script>
+<script src="./slick/slick.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/script.js"></script>
 

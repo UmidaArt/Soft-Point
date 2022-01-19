@@ -636,3 +636,13 @@ input[type=range]:active::-ms-fill-upper {
     color: rgba(2, 18, 6, 0.71);
     margin-bottom: 10px;
 }
+
+.slick-prev:before{
+    color: grey;
+    opacity: 1;
+}
+
+.slick-next:before {
+    color: grey;
+    opacity: 1;
+}
